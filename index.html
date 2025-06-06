@@ -1,12 +1,98 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-  <meta charset="utf-8">
-  <title>Redirecting...</title>
-  <!-- 立即跳转到 SereTOD -->
-  <meta http-equiv="refresh" content="0; url=https://future-dial.github.io/SereTOD/">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FutureDial Workshops</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            max-width: 1000px;
+            margin: 0 auto;
+            padding: 20px;
+            color: #333;
+        }
+        header {
+            text-align: center;
+            padding: 20px 0;
+            margin-bottom: 30px;
+            border-bottom: 2px solid #eee;
+        }
+        h1 {
+            color: #2c3e50;
+        }
+        .workshop-container {
+            display: flex;
+            flex-direction: column;
+            gap: 30px;
+            max-width: 700px;
+            margin: 0 auto;
+        }
+        .workshop-card {
+            border: 1px solid #ddd;
+            border-radius: 8px;
+            padding: 20px;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+            transition: transform 0.3s ease;
+        }
+        .workshop-card:hover {
+            transform: translateY(-5px);
+        }
+        .workshop-card h2 {
+            color: #3498db;
+            margin-top: 0;
+        }
+        .workshop-link {
+            display: inline-block;
+            margin-top: 15px;
+            background-color: #3498db;
+            color: white;
+            padding: 10px 20px;
+            text-decoration: none;
+            border-radius: 5px;
+            font-weight: bold;
+            transition: background-color 0.3s ease;
+        }
+        .workshop-link:hover {
+            background-color: #2980b9;
+        }
+        .workshop-info {
+            margin: 15px 0;
+            font-style: italic;
+            color: #666;
+        }
+        footer {
+            margin-top: 40px;
+            text-align: center;
+            padding-top: 20px;
+            border-top: 1px solid #eee;
+            color: #777;
+        }
+    </style>
 </head>
 <body>
-  <p>Redirecting to <a href="https://future-dial.github.io/SereTOD/">SereTOD</a>...</p>
+    <header>
+        <h1>FutureDial Challenge Series</h1>
+    </header>
+    
+    <div class="workshop-container">
+        <div class="workshop-card">
+            <h2>FutureDial-RAG</h2>
+            <h3>Dialog Systems with Retrieval Augmented Generation</h3>
+            <div class="workshop-info">Co-located with SLT 2024</div>
+            <a href="https://future-dial.github.io/RAG/" class="workshop-link" target="_blank">Visit Challenge Site</a>
+        </div>
+        <div class="workshop-card">
+            <h2>FutureDial-SereTOD</h2>
+            <h3>Towards Semi-Supervised and Reinforced Task-Oriented Dialog Systems</h3>
+            <div class="workshop-info">Co-located with EMNLP 2022</div>
+            <a href="https://future-dial.github.io/SereTOD/" class="workshop-link" target="_blank">Visit Challenge Site</a>
+        </div>
+    </div>
+    
+    <footer>
+        <p>© 2025 FutureDial.</p>
+    </footer>
 </body>
 </html>
