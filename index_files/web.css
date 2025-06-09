@@ -1,0 +1,118 @@
+*{
+	margin: 0px;
+	padding: 0px;
+}
+body{
+	width: 100vw;
+	overflow-x: hidden;
+}
+.title_bar{
+	width: 100%;
+	background-color: #2a2a2a;
+}
+
+.logo{
+	float: left;
+	width: 78px;height: 100%;
+	box-sizing: border-box;
+	padding-left: 2px;
+}
+
+.title {
+	width:100%;
+	height:60px;
+	background-color: #2a2a2a;
+	margin:0px auto;
+}
+
+@media screen and (min-width: 1200px) {
+  .title {
+		width:95% !important;
+		height:60px;
+		background-color: #2a2a2a;
+		margin:0px auto;
+	}
+	
+	.label a{
+		float: left;
+		font:400 16px/60px 'microsoft yahei';
+		color:#fff;
+		margin-right:10px;
+	}
+}
+
+
+.title li{
+	list-style: none;
+	
+}
+.label li{
+	float: left;
+	font:400 16px/60px 'microsoft yahei';
+	color:#fff;
+	margin-right:15px;
+}
+.banner{
+	width:100%;
+	margin:0px auto;
+	height:340px;
+	padding-top:60px;
+	background: url(../banner.jpg) no-repeat center;
+	background-size: 100% 100%;
+}
+.font_title{
+	margin:0px auto;
+	width:63%;
+	margin-top:40px;
+	margin-bottom:18px;
+}
+.main{
+	margin:0px auto;
+	width:63%;
+}
+.green{
+	margin:0px auto;
+	width:63%;
+	height:64px;
+}
+.green p>span:first-child{
+			width:100px;text-align: right;flex-shrink: 0;
+		}
+.green p>span:last-child{
+			margin-left: 10px;
+		}
+		
+.table{
+	margin:0px auto;
+	width:63%;
+}
+.table td{
+	width:590px;padding-left: 15px;
+	
+}
+
+
+.bottom{
+	margin-top: 10px;
+	display: flex;
+	justify-content: center;
+}
+.img-box{
+	width: 40%;height: 15vh;
+}
+.footer {
+	width:63%;
+	height:60px;
+	background-color: #2a2a2a;
+	margin:0px auto;
+}
+.footer_bar{
+	width: 100%;
+	background-color: #2a2a2a;
+}
+
+.clear_box::after{
+	content: '';
+	display: block;
+	clear: both; // 两侧不允许浮动元素
+}
